@@ -119,9 +119,36 @@
   flex: 1 1 300px;
 }
 
+.section {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+  }
+
+  .logo {
+    width: 120px;
+  }
+
+  .hero {
+    padding: 1rem;
+  }
+}
+
+
 
  
   
+
 
 
 
