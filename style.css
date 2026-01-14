@@ -109,8 +109,20 @@
     color: #efd5b8;
   }
 
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.card {
+  flex: 1 1 300px;
+}
+
+
  
   
+
 
 
 
